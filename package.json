@@ -1,0 +1,68 @@
+{
+  "name": "welkom_admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@gravitano/vue-date-range-picker": "^0.1.7",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "buefy": "^0.8.6",
+    "core-js": "^3.3.2",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "sweet-modal-vue": "^2.0.0",
+    "vue": "^2.6.10",
+    "vue-apollo": "^3.0.0",
+    "vue-date-range": "^3.1.7",
+    "vue-form-wizard": "^0.8.4",
+    "vue-owl-carousel2": "^2.0.7",
+    "vue-rangedate-picker": "^1.0.0",
+    "vue-select": "^3.2.0",
+    "vue2-daterange-picker": "^0.3.1",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
